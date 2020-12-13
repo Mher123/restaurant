@@ -1,0 +1,38 @@
+button{
+  outline: none;
+  cursor: pointer;
+  border:none;
+  &:focus{
+    outline: none;
+  }
+}
+
+.contant{
+  padding-left: 87px;
+}
+
+.my__btn{
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.danger__btn{
+  background: #FF2D55;
+  color: #FFFFFF;
+}
+
+.midle__btn{
+  padding: 11px 32px;
+}
+
+.grey__btn{
+  background: #D1D1D6;
+  color: #FFFFFF;
+}

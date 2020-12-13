@@ -1,0 +1,35 @@
+.delete_category_item_modal{
+    .ant-modal-body{
+        padding: 47px 70px 60px 70px ;
+    }
+    .modal_title{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.337647px;
+        color: #000000;
+        margin-bottom: 60px;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ant-modal-close{
+        display: none !important;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.24px;
+        color: #000000;
+        margin-bottom: 50px;
+        p{
+            margin-bottom: 7px;
+        }
+        .name{
+            color: #FF2D55
+        }
+    }
+}

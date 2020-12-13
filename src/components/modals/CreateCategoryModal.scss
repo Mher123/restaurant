@@ -1,0 +1,45 @@
+.create_category_modal{
+    .ant-modal-body{
+        padding: 47px 70px 60px 70px ;
+    }
+    .modal_title{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.337647px;
+        color: #000000;
+        margin-bottom: 60px;
+    }
+    .inp{
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #434C5F;
+            margin-bottom: 0;
+        }
+        input{
+            width: 100%;
+            padding: 14px 20px;
+            outline: none;
+            border: 1px solid #E5E5EA;
+            box-sizing: border-box;
+            border-radius: 3px;
+            margin-bottom: 60px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .btns{
+        display: flex;
+        justify-content: center;
+    }
+    .ant-modal-close{
+        display: none !important;
+    }
+}

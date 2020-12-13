@@ -1,0 +1,32 @@
+.delete_category_modal{
+    .ant-modal-body{
+        padding: 47px 70px 60px 70px ;
+    }
+    .modal_title{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.337647px;
+        color: #000000;
+        margin-bottom: 60px;
+    }
+    p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.24px;
+        color: #000000;
+        margin-bottom: 24px;
+        span{
+            font-weight: bold;
+        }
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ant-modal-close{
+        display: none !important;
+    }
+}
